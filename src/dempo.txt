@@ -1,0 +1,30 @@
+import React from 'react';
+import {Navbar,Nav}from 'react-bootstrap'
+
+const Menu=()=> (
+<Navbar style={testing} variant="#662d91 ">
+    <Navbar.Brand href="#home">Roku </Navbar.Brand>
+    <Nav className="mr-auto">
+      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#features">How to setup</Nav.Link>
+      <Nav.Link href="#pricing">Product</Nav.Link>
+      <Nav.Link href="#pricing">Activation Process </Nav.Link>
+      <Nav.Link href="#pricing">Contact </Nav.Link>
+    </Nav>
+    </Navbar>
+
+)
+
+
+const testing={
+  justifyContent:"flex-end",
+  display: "flex",
+  boxSizing:" border-box",
+  fontWeight: "300",
+  fontFamily: "GothamLight,GothamBook,Helvetica,Arial,sans-serif",
+  border:"",
+  float:"right",
+  backgroundColor:"White",
+}
+
+export default Menu;
